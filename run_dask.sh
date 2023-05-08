@@ -7,7 +7,7 @@
 
 cd $PBS_O_WORKDIR
 
-module use /g/data/hh5/admin/conda_concept/modules
+module use /g/data/hh5/public/modules
 module load conda_concept/analysis3-unstable
 
 dask scheduler --scheduler-file sched_"${FILE_PREFIX}".json &
